@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #5d6063;
+}
+
+h1 {
+  color: #111;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+h2 {
+  color: #111;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+p {
+  text-align: justify;
+}
+
+.custom-navbar {
+  background: #121212;
+}
+
+.custom-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
